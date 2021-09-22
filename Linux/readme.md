@@ -1,5 +1,5 @@
-#Linux Lessons
-**Task 1:**
+#Linux Lessons<br/>
+**Task 1:**<br/>
 ###Part1
    - Login to system as root **sudo su**;
    - Change password **passwd** yuo must be **SU** take constrution **passwd username**;
