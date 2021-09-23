@@ -15,19 +15,21 @@
 
 ## Task 2 :<br/>
  1. If use **cat/etc/passwd** command show information about all users registred in filesystem.<br/>
+ ![Passwd_UID](https://github.com/xxxDaOctoPuSSxxx/DevOps_Academy/blob/Task_2/Linux/Task2/use_passwd.jpg)
 -  If use **cat/etc/group** command show information about all groupsregistred in filesystem.<br/>
+![cat group](https://github.com/xxxDaOctoPuSSxxx/DevOps_Academy/blob/Task_2/Linux/Task2/use_cat_group.jpg)
 -  **pseudo-users** Users of these names are not registered in the system and are only needed to confirm ownership of the processes. It has, **id** from **1** to **499** sometime **999** <br/>
 
 2. **UID - User identifier** values in the range 0 to 99 should be **statically allocated** by the system, and shall not be created by applications, while **UIDs** from **100 to 499** should be **reserved** for dynamic allocation by system administrators and post install scripts.  <br/>
- To find **UID** use the command **id** **cat/etc/passwd** 
-3. **GID - group identifier** To find **GID** use the command **id** **cat/etc/passwd**
-4. To determine belonging of user to the specific group need to use the _command_ **groups username**
+ To find **UID** use the command **id** ![id sample](https://github.com/xxxDaOctoPuSSxxx/DevOps_Academy/blob/Task_2/Linux/Task2/use_id.jpg) **cat/etc/passwd** ! [passwd sample](https://github.com/xxxDaOctoPuSSxxx/DevOps_Academy/blob/Task_2/Linux/Task2/use_passwd_uid.jpg)
+3. **GID - group identifier** To find **GID** use the command **id** **cat/etc/passwd**! [passwd gid sample] (https://github.com/xxxDaOctoPuSSxxx/DevOps_Academy/blob/Task_2/Linux/Task2/use_passwd_gid.jpg)
+4. To determine belonging of user to the specific group need to use the _command_ **groups username** ! [sample](https://github.com/xxxDaOctoPuSSxxx/DevOps_Academy/blob/Task_2/Linux/Task2/groups_username.jpg)
 5. **useradd** are the command for adding a user to the system. <b/>
 Basic parameters required to create a user are **username, password, /home/ shell** <b/>
-6. To change the name (account name) of an existing user use the _command_ **sudo usermod -l new_username old_username**
+6. To change the name (account name) of an existing user use the _command_ **sudo usermod -l new_username old_username** ![sample](https://github.com/xxxDaOctoPuSSxxx/DevOps_Academy/blob/Task_2/Linux/Task2/rename_user.jpg)
 
 7. The **skel_dir** is **template** for a **home** directory of _new user_.
-8. To **remove** a user from the system (including his mailbox) use **userdel [-r] username**
+8. To **remove** a user from the system (including his mailbox) use **userdel [-r] username** ![sample](https://github.com/xxxDaOctoPuSSxxx/DevOps_Academy/blob/Task_2/Linux/Task2/user_del.jpg)
 9. The _commands_ and _keys_ should be used to lock and unlock a user account is **usermod -f** **usermod -e**
 10. To remove a user's password and provide him with a password-free login for subsequent password use the _command_ **passwd -e username**
 11. To display the extended format of information about the directoryuse the _command_ **ls -l**
