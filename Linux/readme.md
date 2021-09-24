@@ -21,8 +21,8 @@
 -  **pseudo-users** Users of these names are not registered in the system and are only needed to confirm ownership of the processes. It has, **id** from **1** to **499** sometime **999** <br/>
 
 2. **UID - User identifier** values in the range 0 to 99 should be **statically allocated** by the system, and shall not be created by applications, while **UIDs** from **100 to 499** should be **reserved** for dynamic allocation by system administrators and post install scripts.  <br/>
- To find **UID** use the command **id** ![id sample](https://github.com/xxxDaOctoPuSSxxx/DevOps_Academy/blob/Task_2/Linux/Task2/use_id.jpg) **cat/etc/passwd** ! [passwd sample](https://github.com/xxxDaOctoPuSSxxx/DevOps_Academy/blob/Task_2/Linux/Task2/use_passwd_uid.jpg)
-3. **GID - group identifier** To find **GID** use the command **id** **cat/etc/passwd** ! [passwd gid sample](https://github.com/xxxDaOctoPuSSxxx/DevOps_Academy/blob/Task_2/Linux/Task2/use_passwd_gid.jpg)
+ To find **UID** use the command **id** ![id sample](https://github.com/xxxDaOctoPuSSxxx/DevOps_Academy/blob/Task_2/Linux/Task2/use_id.jpg) **cat/etc/passwd** ![passwd sample](https://github.com/xxxDaOctoPuSSxxx/DevOps_Academy/blob/Task_2/Linux/Task2/use_passwd_uid.jpg)
+3. **GID - group identifier** To find **GID** use the command **id** **cat/etc/passwd** ![passwd gid sample](https://github.com/xxxDaOctoPuSSxxx/DevOps_Academy/blob/Task_2/Linux/Task2/use_passwd_gid.jpg)
 4. To determine belonging of user to the specific group need to use the _command_ **groups username** ![sample](https://github.com/xxxDaOctoPuSSxxx/DevOps_Academy/blob/Task_2/Linux/Task2/groups_username.jpg)
 5. **useradd** are the command for adding a user to the system. <b/>
 Basic parameters required to create a user are **username, password, /home/ shell** <b/>
