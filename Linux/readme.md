@@ -1,16 +1,7 @@
 # Linux Lessons<br/>
-**Task 1:**<br/>
-### Part1
-   - Login to system as root **sudo su**;
-   - Change password **passwd** yuo must be **SU** take constrution **passwd username**;
-   - Determine users **whoiam, who, w**;
-   - Linux **HELP** system **man** use to take manual **man** _programname_.<br/>
-   
-   
-### Part2
-   - **tree** _command_ printed files in tree visualization;
-   - **file** _command_ with different keys use to determine type of file;
-   - **cd~/** comeback from any directory to **/home/**
+## Task 1: [Tree; File; ls; mkdir; hard link; synbol link... **commands**](https://github.com/xxxDaOctoPuSSxxx/DevOps_Academy/blob/Task_2/Linux/Task1/readme_task_1.md)<br/>
    
 
+## Task 2 : [CAT; UID; GID; USERADD; SKEL_DIR; STICKY BITS _commands_](https://github.com/xxxDaOctoPuSSxxx/DevOps_Academy/blob/Task_2/Linux/Task2/readme_task_2.md) <br/>
+ 
 
